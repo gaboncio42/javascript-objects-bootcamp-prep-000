@@ -8,7 +8,7 @@ function updatePlaylist(playlist, cafres, momento) {
   return playlist;
 }
 
-function removeFromPlaylist(playlist, cultura) {
-  delete playlist.cultura;
+function removeFromPlaylist(playlist, Slowdive) {
+  delete playlist.Slowdive;
   return playlist;
 }

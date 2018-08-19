@@ -4,5 +4,6 @@ var playlist = {
 };
 
 function updatePlaylist(playlist, cafres, momento) {
-  return 
+  playlist[cafres] = "momento";
+  return playlist;
 }
